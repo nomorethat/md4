@@ -1,0 +1,51 @@
+body, html {       
+	margin:0px;
+	padding:0px;
+	height: 100%;
+	/* background-color: #c80e0f; */
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+}
+
+#container h1{
+	margin: 10px 0 -5px 10px;
+}
+
+#container textarea{
+	width: 600px;
+	height: 120px;
+	margin-top: 10px; 
+	margin-left: 10px; 
+}
+
+#container #btn_get_digest{
+	width: 140px;
+	height: 25px;
+	border: 2px solid #992331;
+	background-color: #cc6774;
+	margin-top: 10px; 
+	margin-left: 10px; 
+	font-family: times new roman;
+	font-size: 20px;
+	color: #fff;
+	text-align: center; 
+	cursor: pointer;
+}
+
+#container #btn_get_digest:hover{
+	background-color: #bb5663;
+}
+
+#container #div_digest{
+	margin-top: 10px;
+}
+
+#container #div_digest span{
+	display: inline-block;
+	margin-left: 10px;
+	font-family: times new roman;
+	font-size: 18px;
+}
